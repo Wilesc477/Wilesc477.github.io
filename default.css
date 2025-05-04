@@ -17,6 +17,7 @@ header {
     color: #FAFAFA;
     padding: 20px;
     text-align: center;
+    width: 100%;
     border-bottom: 4px solid #222831;
 }
 
@@ -37,6 +38,27 @@ h3 {
 
 .download-button:hover {
     background-color: royalblue;
+}
+
+button {
+    background-color: #4F46E5;
+    color: #FAFAFA;
+    font-size: 16px;
+    padding: 12px 28px;
+    border-radius: 4px;
+
+}
+
+button:hover {
+    background-color: #6366F1;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    color: #FAFAFA;
+    background-color: #6366F1;
 }
 
 .sideNav ul {
@@ -85,12 +107,17 @@ section {
     box-shadow: 0 4px 8px #222831;
 }
 
+.subHead {
+    text-align: left;
+    font-weight:bold;
+    font-size: 1.17em;
+}
+
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background-color: #4F46E5;
     color: #FAFAFA;
-    position: static;
     bottom: 0;
     width: 100%;
     border-top: 4px solid #222831;
